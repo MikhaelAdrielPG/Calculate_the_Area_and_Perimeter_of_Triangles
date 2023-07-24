@@ -12,7 +12,7 @@ public class Main {
         double luas = hitungLuasLingkaran(radius);
         double keliling = hitungKelilingLingkaran(radius);
 
-        // menampilkan untuk hasil perhitungan luas dan keliling lingkaran dengan format 2 angka dibelakang koma dengan print format
+        // menampilkan untuk hasil perhitungan luas dan keliling lingkaran dengan format dua angka dibelakang koma dengan print format
         System.out.printf("Luas lingkaran: %.2f%n", luas);
         System.out.printf("Keliling lingkaran: %.2f%n", keliling);
     }

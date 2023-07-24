@@ -8,13 +8,9 @@ public class Main {
         System.out.print("Masukkan jari-jari lingkaran: ");
         float radius = scanner.nextFloat();
 
-        // menghitung luas & keliling lingkaran dengan fungsi hitungLuasLingkaran & hitungKelilingLingkaran dari lingkaran
-        double luas = hitungLuasLingkaran(radius);
-        double keliling = hitungKelilingLingkaran(radius);
-
         // menampilkan untuk hasil perhitungan luas dan keliling lingkaran dengan format dua angka dibelakang koma dengan print format
-        System.out.printf("Luas lingkaran: %.2f%n", luas);
-        System.out.printf("Keliling lingkaran: %.2f%n", keliling);
+        System.out.printf("Luas lingkaran: %.2f%n", hitungLuasLingkaran(radius));
+        System.out.printf("Keliling lingkaran: %.2f%n", hitungKelilingLingkaran(radius));
     }
 
     // fungsi untuk menghitung luas lingkaran
